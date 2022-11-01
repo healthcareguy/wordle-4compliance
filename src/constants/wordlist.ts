@@ -51,7 +51,7 @@ export const WORDSHINTSEXPLNATIONS = [
       'Gifts are considered anything of value that if offered, provided, or promised, with an intention to exert undue influence on a business decision, would be considered a bribe under applicable anti corruption laws in many countries',
   },
   {
-    word: 'Graft',
+    word: 'graft',
     hint: 'A form of political corruption',
     explanation:
       'Graft is a form of political corruption that involves the misdirection of public funds by a government official for the benefit of private interests.',
@@ -75,55 +75,55 @@ export const WORDSHINTSEXPLNATIONS = [
       "Corruption is a form of criminal offence which is undertaken by a person or an organisation which is entrusted in a position of authority, in order to acquire illicit benefits or abuse power for one's personal gain.",
   },
   {
-    word: 'Trips',
+    word: 'trips',
     hint: 'Excursion for pleasure',
     explanation:
       'Payments for travel expenses which are merely bribes in disguise are a clear violation of applicable anti corruption laws',
   },
   {
-    word: 'Abuse',
+    word: 'abuse',
     hint: 'Use something to bad effect',
     explanation:
       'Abuse of dominance occurs when a dominant business (or group of businesses) engages in activity that stops or substantially reduces competition in a market.',
   },
   {
-    word: 'Tying',
+    word: 'tying',
     hint: 'Bound together',
     explanation:
       'An agreement by a party to sell one product but only on the condition that the buyer also purchases a different (or tied) product, or at least agrees that he will not purchase that product from any other supplier.',
   },
   {
-    word: 'Carve',
+    word: 'carve',
     hint: 'Setting aside from a larger whole',
     explanation:
       'Carving up a market – cartel members may collectively agree to break up a market into regions or territories and not compete in each other’s territory.',
   },
   {
-    word: 'Quote',
+    word: 'quote',
     hint: 'Last price for trading a product or service',
     explanation:
       'Quotations are considered commercially sensitive information between competitors',
   },
   {
-    word: 'Price',
+    word: 'price',
     hint: 'An amount expected, offered or given for something',
     explanation:
       'Prices are sensitive and confidential information relating to important competition parameters',
   },
   {
-    word: 'Joint',
+    word: 'joint',
     hint: 'a  collaborative approach',
     explanation:
       'Any cooperation with competitors, such as joint sales and marketing, production, purchasing, or research and development is only permitted, if precise and clearly defined legal requirements are met.',
   },
   {
-    word: 'Share',
+    word: 'share',
     hint: 'Giving out to another',
     explanation:
       'Market sharing occurs when competitors agree to divide or allocate customers, suppliers or territories among themselves rather than allowing competitive market forces to work.',
   },
   {
-    word: 'Money',
+    word: 'money',
     hint: 'Legal tender',
     explanation:
       'Money laundering is the process of concealing the origin of money, obtained from illicit activities such as trafficking, corruption, embezzlement or gambling, by converting it into a legitimate source.',
