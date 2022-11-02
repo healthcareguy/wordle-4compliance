@@ -1,16 +1,30 @@
+import classnames from 'classnames'
+import { useState } from 'react'
+
 import { getHint, hintsExplanations } from './../../lib/hintsExplanations'
-import { Key } from './../keyboard/Key'
 import { BaseModal } from './BaseModal'
 
 type Props = {
   isOpen: boolean
   handleClose: () => void
+  width?: number
 }
 
-export const HintModal = ({ isOpen, handleClose }: Props) => {
-  const onClick = (value: string) => {
+export const HintModal = ({ isOpen, handleClose, width = 400 }: Props) => {
+  const [buttonText, setButtonText] = useState('Click')
+
+  const onClick = () => {
     getHint()
+    setButtonText(hintsExplanations.hint)
   }
+  const styles = {
+    transitionDelay: `200ms`,
+    width: `${width}px`,
+  }
+
+  const classes = classnames(
+    'xxshort:h-8 xxshort:w-8 xxshort:text-lg xshort:w-10 xshort:h-10 flex short:h-12 h-14 items-center justify-center rounded mx-0.5 text-lg font-bold cursor-pointer select-none dark:text-white bg-cyan-500 hover:bg-cyan-600 active:bg-cyan-700 text-white'
+  )
   return (
     <BaseModal title="Hint" isOpen={isOpen} handleClose={handleClose}>
       {!hintsExplanations.hintrevealed && (
@@ -19,12 +33,14 @@ export const HintModal = ({ isOpen, handleClose }: Props) => {
         </p>
       )}
       <div className="m-3 flex justify-center">
-        <Key
-          width={280}
-          value={hintsExplanations.hint}
+        <button
+          style={styles}
+          className={classes}
           onClick={onClick}
-          status="correct"
-        />
+          id="hintButton"
+        >
+          {buttonText}
+        </button>
       </div>
     </BaseModal>
   )

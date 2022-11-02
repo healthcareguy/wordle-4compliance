@@ -13,12 +13,12 @@ export const hintsExplanations: HintsExplanation = {
 
 export const getHint = () => {
   if (hintsExplanations.hintrevealed === true) {
-    return
+    return '<<<REVEAL>>>'
   }
   const wordhintexplanation = WORDSHINTSEXPLNATIONS.filter((whd) => {
     return whd.word === solution.toLowerCase()
   })
   hintsExplanations.hintrevealed = true
   hintsExplanations.hint = wordhintexplanation[0].hint
-  return
+  return hintsExplanations.hint
 }
