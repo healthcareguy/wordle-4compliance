@@ -1,3 +1,5 @@
+import { LightBulbIcon } from '@heroicons/react/outline'
+
 import { Cell } from '../grid/Cell'
 import { BaseModal } from './BaseModal'
 
@@ -9,12 +11,18 @@ type Props = {
 export const InfoModal = ({ isOpen, handleClose }: Props) => {
   return (
     <BaseModal title="How to play" isOpen={isOpen} handleClose={handleClose}>
-      <p className="text-sm text-gray-500 dark:text-gray-300">
-        Guess the word in 6 tries. After each guess, the color of the tiles will
-        change to show how close your guess was to the word. If you need help,
-        click the bulb icon to get a hint.
-      </p>
-
+      <div>
+        <p className="text-sm text-gray-500 dark:text-gray-300">
+          Guess the word in 6 tries. After each guess, the color of the tiles
+          will change to show how close your guess was to the word.
+        </p>
+      </div>
+      <div className="mt-3 inline-block align-middle text-sm text-gray-500 dark:text-gray-300">
+        <p>
+          <b>Need a clue?</b> Click the{' '}
+          <LightBulbIcon className="dark:stroke-whit1 mb-1 inline-block w-6"></LightBulbIcon>
+        </p>
+      </div>
       <div className="mb-1 mt-4 flex justify-center">
         <Cell
           isRevealing={true}

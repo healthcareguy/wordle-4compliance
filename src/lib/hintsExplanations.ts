@@ -22,3 +22,10 @@ export const getHint = () => {
   hintsExplanations.hint = wordhintexplanation[0].hint
   return hintsExplanations.hint
 }
+
+export const getExplanation = () => {
+  const wordhintexplanation = WORDSHINTSEXPLNATIONS.filter((whd) => {
+    return whd.word === solution.toLowerCase()
+  })
+  return wordhintexplanation[0].explanation
+}
