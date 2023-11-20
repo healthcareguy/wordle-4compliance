@@ -57,13 +57,13 @@ Note that guesses are validated against both the length of the solution, and pre
 ### How can I create a version in another language?
 
 - In [.env](.env):
-  - Update the title and the description
-  - Set the `REACT_APP_LOCALE_STRING` to your locale
+  - ✅ Update the title and the description
+  - ✅ Set the `REACT_APP_LOCALE_STRING` to your locale
 - In [public/index.html](public/index.html):
-  - Update the "You need to enable JavaScript" message
-  - Update the language attribute in the HTML tag
-  - If the language is written right-to-left, add `dir="rtl"` to the HTML tag
-- Update the name and short name in [public/manifest.json](public/manifest.json)
+  - ✅ Update the "You need to enable JavaScript" message
+  - ✅ Update the language attribute in the HTML tag
+  - ✅ If the language is written right-to-left, add `dir="rtl"` to the HTML tag
+- ✅ Update the name and short name in [public/manifest.json](public/manifest.json)
 - Update the strings in [src/constants/strings.ts](src/constants/strings.ts)
 - Add all of the five letter words in the language to [src/constants/validGuesses.ts](src/constants/validGuesses.ts), replacing the English words
 - Add a list of goal words in the language to [src/constants/wordlist.ts](src/constants/wordlist.ts), replacing the English words
