@@ -10,16 +10,17 @@ type Props = {
 
 export const InfoModal = ({ isOpen, handleClose }: Props) => {
   return (
-    <BaseModal title="How to play" isOpen={isOpen} handleClose={handleClose}>
+    <BaseModal title="Cómo jugar" isOpen={isOpen} handleClose={handleClose}>
       <div>
         <p className="text-sm text-gray-500 dark:text-gray-300">
-          Guess the word in 6 tries. After each guess, the color of the tiles
-          will change to show how close your guess was to the word.
+          Adivina la palabra en 6 intentos. Después de cada adivinanza, el color
+          de las fichas. cambiará para mostrar qué tan cerca estuvo su
+          suposición de la palabra.
         </p>
       </div>
       <div className="mt-3 inline-block align-middle text-sm text-gray-500 dark:text-gray-300">
         <p>
-          <b>Need a clue?</b> Click the{' '}
+          <b>¿Necesitas una pista?</b> Haz clic en{' '}
           <LightBulbIcon className="dark:stroke-whit1 mb-1 inline-block w-6"></LightBulbIcon>
         </p>
       </div>
@@ -36,7 +37,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell value="Y" isCompleted={true} />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter W is in the word and in the correct spot.
+        La letra W está en la palabra y en el lugar correcto.
       </p>
 
       <div className="mb-1 mt-4 flex justify-center">
@@ -52,7 +53,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell value="T" isCompleted={true} />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter L is in the word but in the wrong spot.
+        La letra L está en la palabra pero en el lugar equivocado.
       </p>
 
       <div className="mb-1 mt-4 flex justify-center">
@@ -63,17 +64,17 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell value="E" isCompleted={true} />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter U is not in the word in any spot.
+        La letra U no está en la palabra en ningún lugar.
       </p>
 
       <p className="mt-6 text-sm italic text-gray-500 dark:text-gray-300">
-        This is an open source version of the word guessing game we all know and
-        love -{' '}
+        Esta es una versión de código abierto del juego de adivinar palabras que
+        todos conocemos y amar -{' '}
         <a
           href="https://github.com/cwackerfuss/react-wordle"
           className="font-bold underline"
         >
-          check out the code here
+          mira el código aquí
         </a>{' '}
       </p>
     </BaseModal>

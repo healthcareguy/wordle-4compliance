@@ -1,166 +1,103 @@
 export const WORDS = [
-  'offer',
-  'bribe',
-  'fines',
-  'gifts',
-  'graft',
-  'fraud',
-  'value',
-  'crime',
-  'trips',
-  'abuse',
-  'tying',
-  'carve',
-  'quote',
-  'order',
-  'price',
-  'joint',
-  'share',
-  'money',
-  'evade',
-  'layer',
-  'haven',
-  'drugs',
-  'mafia',
-  'asset',
+  'datos',
+  'etica',
+  'norma',
+  'regla',
+  'justo',
+  'droga',
+  'poder ',
+  'social',
+  'leyes',
+  'deber',
+  'moral',
+  'probo',
+  'audit',
+  'regir',
 ]
 
 export const WORDSHINTSEXPLNATIONS = [
   {
-    word: 'offer',
-    hint: 'a proffer',
+    word: 'datos',
+    hint: 'Información',
     explanation:
-      'Under anti-corruption laws of most countries, it is illegal to even offer a bribe',
+      'Los datos de personales están protegidos por leyes que resguardan la información de los individuos, estableciendo los derechos de los titulares, las hipótesis autorizadoras y las condiciones que deben cumplirse en el caso de recopilación, uso, almacenamiento o cualquier otra acción considerada como tratamiento. La compañía A tiene un cuidado especial con los datos de los empleados y terceros.',
   },
   {
-    word: 'bribe',
-    hint: 'an improper stimulus',
+    word: 'etica',
+    hint: 'Agir de forma correta',
     explanation:
-      'A bribe involves intentionally offering, promising or giving any undue pecuniary or other advantage to an official or decision maker, with the intention that the official or decision maker acts or refrains from acting in relation to the performance of their duties.',
+      'La ética debe estar presente en todas nuestras relaciones, personales, familiares, profesionales, entre otras. Actuar de manera ética significa más que seguir las reglas y normas, también implica transparencia y respeto.',
   },
   {
-    word: 'fines',
-    hint: 'A punishing pinch to the pocket',
+    word: 'norma',
+    hint: 'Regras escritas',
     explanation:
-      'A person convicted of an offence under the Prevention of Corruption Act 1960 shall be liable to a fine not exceeding $100,000 or to imprisonment for a term not exceeding 5 years or to both, for each count of corruption.',
+      'La norma es una regla escrita que, según el emisor, puede tener naturaleza privada (por ejemplo, empresa) o pública (por ejemplo, municipio), incluyendo leyes, decretos, reglamentos internos, entre otros. Las normas privadas se aplican a un grupo específico de personas que han decidido asociarse, mientras que las normas públicas son aquellas creadas por los gobiernos federales, estatales y municipales.',
   },
   {
-    word: 'gifts',
-    hint: 'A benefit',
+    word: 'regla',
+    hint: 'Norma interna',
     explanation:
-      'Gifts are considered anything of value that if offered, provided, or promised, with an intention to exert undue influence on a business decision, would be considered a bribe under applicable anti corruption laws in many countries',
+      'Las reglas son definiciones que dirigen, guían y orientan la conducta de un grupo de personas.',
   },
   {
-    word: 'graft',
-    hint: 'A form of political corruption',
+    word: 'justo',
+    hint: 'Calidad de quien actúa de manera correcta e imparcial',
     explanation:
-      'Graft is a form of political corruption that involves the misdirection of public funds by a government official for the benefit of private interests.',
+      'Ser justo es una cualidad de aquel que actúa de manera correcta e imparcial, considerando muchas veces todas las circunstancias antes de llegar a una conclusión y tomar una acción, buscando analizar no solo el acto en sí, sino también las motivaciones y condiciones.',
   },
   {
-    word: 'fraud',
-    hint: 'A deceptive act',
+    word: 'droga',
+    hint: 'Una sustancia que afecta el cuerpo',
     explanation:
-      'Misleading conduct done by someone, with the objective to get an illegal advantage',
+      "La primera etapa del lavado de dinero se conoce como 'colocación' (placement), en la cual el dinero 'sucio' se introduce en los sistemas legales y financieros. Por ejemplo, los traficantes de drogas ocultan sus ganancias al introducirlas en el vasto mercado financiero global y utilizan el dinero lavado para financiar sus actividades ilícitas.",
   },
   {
-    word: 'value',
-    hint: 'A monetary estimation',
+    word: 'poder ',
+    hint: 'Capacidad de decidir',
     explanation:
-      'The term “anything of value” can be broadly construed to include not only cash or a cash equivalents, but also things like, discounts; gifts; use of materials, facilities or equipment; training and education; entertainment; meals and drinks; transportation; lodging, insurance benefits; promises of future employment; and forgiveness (or cancellation) of debt.',
+      "El poder es una cualidad que capacita a un individuo o a un grupo para decidir o imponer su voluntad, y debe ser utilizado con sabiduría y cuidado debido a los efectos que puede causar. Lord Acton es el autor de la famosa frase 'El poder tiende a corromper, y el poder absoluto corrompe absolutamente'.",
   },
   {
-    word: 'crime',
-    hint: 'behaviour that is punishable as a public offence',
+    word: 'social',
+    hint: 'Comunidad',
     explanation:
-      "Corruption is a form of criminal offence which is undertaken by a person or an organisation which is entrusted in a position of authority, in order to acquire illicit benefits or abuse power for one's personal gain.",
+      'El enfoque en lo social es un deber de todos, incluyendo empresas, personas, entidades y gobiernos. Esta es una de las razones por las cuales el grupo thyssenkrupp, incluso sabiendo de sus obligaciones con sus inversores, nunca olvida su compromiso de preocuparse por la sociedad.',
   },
   {
-    word: 'trips',
-    hint: 'Excursion for pleasure',
+    word: 'leyes',
+    hint: 'Reglas escritas',
     explanation:
-      'Payments for travel expenses which are merely bribes in disguise are a clear violation of applicable anti corruption laws',
+      'A lei é uma regra escrita emitida pelo Poder Legislativo. As leis tem efeito compulsório e podem ser direcionadas para um determinado grupo ou para todos os cidadões e entidades.',
   },
   {
-    word: 'abuse',
-    hint: 'Use something to bad effect',
+    word: 'deber',
+    hint: 'Obligación',
     explanation:
-      'Abuse of dominance occurs when a dominant business (or group of businesses) engages in activity that stops or substantially reduces competition in a market.',
+      'El deber es la obligación asignada a una persona o empresa de hacer algo (por ejemplo, cuidar de los hijos) o de no hacer algo (por ejemplo, no matar), pudiendo tener su origen en la ley, normas internas de un grupo o incluso en las costumbres de la región.',
   },
   {
-    word: 'tying',
-    hint: 'Bound together',
+    word: 'moral',
+    hint: 'Reglas y costumbres',
     explanation:
-      'An agreement by a party to sell one product but only on the condition that the buyer also purchases a different (or tied) product, or at least agrees that he will not purchase that product from any other supplier.',
+      'La moral tiene una carga subjetiva al estar formada por las experiencias de los individuos y por los pensamientos y hábitos de una sociedad, que pueden variar según el momento y el lugar en el que se vive. En algunas situaciones, es nuestra carga moral la que nos permite seguir el camino correcto.',
   },
   {
-    word: 'carve',
-    hint: 'Setting aside from a larger whole',
+    word: 'probo',
+    hint: 'Calidad de quien actúa correctamente',
     explanation:
-      'Carving up a market – cartel members may collectively agree to break up a market into regions or territories and not compete in each other’s territory.',
+      'Ser honesto es más que actuar de acuerdo con las leyes y reglas, también es actuar de manera transparente, respetando a todos los que nos rodean.',
   },
   {
-    word: 'quote',
-    hint: 'Last price for trading a product or service',
+    word: 'audit',
+    hint: 'Supervisión del cumplimiento de las reglas',
     explanation:
-      'Quotations are considered commercially sensitive information between competitors',
+      'Procedimiento realizado para verificar el cumplimiento de normas y obligaciones con el fin de verificar la existencia de irregularidades o desviaciones.',
   },
   {
-    word: 'price',
-    hint: 'An amount expected, offered or given for something',
+    word: 'regir',
+    hint: 'Acto de cuidar de un grupo o pueblo',
     explanation:
-      'Prices are sensitive and confidential information relating to important competition parameters',
-  },
-  {
-    word: 'joint',
-    hint: 'a  collaborative approach',
-    explanation:
-      'Any cooperation with competitors, such as joint sales and marketing, production, purchasing, or research and development is only permitted, if precise and clearly defined legal requirements are met.',
-  },
-  {
-    word: 'share',
-    hint: 'Giving out to another',
-    explanation:
-      'Market sharing occurs when competitors agree to divide or allocate customers, suppliers or territories among themselves rather than allowing competitive market forces to work.',
-  },
-  {
-    word: 'money',
-    hint: 'Legal tender',
-    explanation:
-      'Money laundering is the process of concealing the origin of money, obtained from illicit activities such as trafficking, corruption, embezzlement or gambling, by converting it into a legitimate source.',
-  },
-  {
-    word: 'evade',
-    hint: 'Try to avoid',
-    explanation: 'Tax evasion is a designated offense for money laundering',
-  },
-  {
-    word: 'layer',
-    hint: 'Vaneer of normalcy',
-    explanation:
-      'The transaction stage during which the money is passed through several financial instruments and vehicles to give the appearance that the money is from a legitimate source',
-  },
-  {
-    word: 'haven',
-    hint: 'A refuge or sanctuary',
-    explanation:
-      "Tax havens create opportunities for illegal activities that go well beyond tax evasion. They are popular stops in the elaborate process of money laundering, which involves transferring illegally obtained cash through a series of shell companies until it can't be traced.",
-  },
-  {
-    word: 'drugs',
-    hint: 'A substance affecting the body',
-    explanation:
-      "The first stage of money laundering is known as 'placement', whereby 'dirty' money is placed into the legal, financial systems. For e.g. Drug dealers hide their profits by flushing them through the vast global financial market, and use the laundered cash to underwrite their trafficking",
-  },
-  {
-    word: 'mafia',
-    hint: 'Those following omertà',
-    explanation:
-      'Al Capone is known as the person who gave the term money laundering. He laundered money by buying laundries as cash.',
-  },
-  {
-    word: 'asset',
-    hint: 'Thing of value',
-    explanation:
-      'The launderer might choose to invest proceeds from illicit activities into assets such as real estate, luxury assets, or business ventures.',
+      'Gobernar es un poder y al mismo tiempo un deber conferido a una persona o grupo de personas elegidas con la finalidad de atender los intereses y necesidades de aquellos que los eligieron o que están bajo su gestión.',
   },
 ]

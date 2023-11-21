@@ -1,12 +1,12 @@
-import { SaveIcon } from '@heroicons/react/outline'
-import { useState } from 'react'
+import { SaveIcon } from '@heroicons/react/outline';
+import { useState } from 'react';
 
-import { decrypt } from '../../lib/encryption'
-import {
-  saveGameStateToLocalStorage,
-  saveStatsToLocalStorage,
-} from '../../lib/localStorage'
-import { MigrationStats } from '../modals/MigrateStatsModal'
+
+
+import { decrypt } from '../../lib/encryption';
+import { saveGameStateToLocalStorage, saveStatsToLocalStorage } from '../../lib/localStorage';
+import { MigrationStats } from '../modals/MigrateStatsModal';
+
 
 export const ImmigratePanel = () => {
   const [isSaveButtonEnabled, setIsSaveButtonEnabled] = useState(false)
@@ -55,7 +55,7 @@ export const ImmigratePanel = () => {
     if (
       textarea &&
       window.confirm(
-        'Are you sure you want to override the statistics on this device? This action is not reversable.'
+        '¿Está seguro de que desea anular las estadísticas de este dispositivo? Esta acción no es reversible.'
       )
     ) {
       var migrationStats = JSON.parse(
@@ -71,7 +71,7 @@ export const ImmigratePanel = () => {
         saveStatsToLocalStorage(migrationStats.statistics)
       }
 
-      alert('The site will now reload.')
+      alert('El sitio ahora se recargará.')
 
       window.location.reload()
     }

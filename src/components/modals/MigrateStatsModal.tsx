@@ -20,13 +20,13 @@ export const MigrateStatsModal = ({ isOpen, handleClose }: Props) => {
 
   return (
     <BaseModal
-      title="Transfer your statistics"
+      title="Transfiere tus estadísticas"
       isOpen={isOpen}
       handleClose={handleClose}
     >
       <p className="mt-4 mb-4 text-sm text-gray-500 dark:text-gray-300">
-        Copy the migration code on your old device and paste into the input on
-        the new device.
+        Copie el código de migración en su dispositivo anterior y péguelo en la
+        entrada de el nuevo dispositivo.
       </p>
 
       <div className="w-full columns-3 gap-0">
@@ -50,7 +50,7 @@ export const MigrateStatsModal = ({ isOpen, handleClose }: Props) => {
             htmlFor="emigrate-radio-button"
             className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
           >
-            old device
+            dispositivo viejo
           </label>
         </div>
         <div className="flex items-center">
@@ -68,7 +68,7 @@ export const MigrateStatsModal = ({ isOpen, handleClose }: Props) => {
             htmlFor="immigrate-radio-button"
             className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
           >
-            new device
+            Nuevo dispositivo
           </label>
         </div>
       </div>
