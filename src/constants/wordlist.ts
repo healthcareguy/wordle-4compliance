@@ -1,4 +1,16 @@
-export const WORDS = ['dados', 'golpe', 'desvio']
+export const WORDS = [
+  'dados',
+  'golpe',
+  'moral',
+  'etica',
+  'justo',
+  'regra',
+  'troco',
+  'norma',
+  'roubo',
+  'crime',
+  'droga',
+]
 
 export const WORDSHINTSEXPLNATIONS = [
   {
