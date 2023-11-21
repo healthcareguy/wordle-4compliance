@@ -1,166 +1,103 @@
 export const WORDS = [
-  'offer',
-  'bribe',
-  'fines',
-  'gifts',
-  'graft',
-  'fraud',
-  'value',
-  'crime',
-  'trips',
-  'abuse',
-  'tying',
-  'carve',
-  'quote',
-  'order',
-  'price',
-  'joint',
-  'share',
-  'money',
-  'evade',
-  'layer',
-  'haven',
-  'drugs',
+  'agent',
+  'frage',
+  'kunde',
+  'markt',
+  'taten',
+  'zweck',
+  'preis',
   'mafia',
-  'asset',
+  'dsgvo',
+  'audit',
+  'bitte',
+  'druck',
+  'index',
+  'zeuge',
 ]
 
 export const WORDSHINTSEXPLNATIONS = [
   {
-    word: 'offer',
-    hint: 'a proffer',
+    word: 'agent',
+    hint: 'Handelsvertreter',
     explanation:
-      'Under anti-corruption laws of most countries, it is illegal to even offer a bribe',
+      'Die Einschaltung Externer, die für tk auf Provisionsbasis Geschäfte vermitteln, birgt Risiken, da deren Verhalten tk zugerechnet werden kann.',
   },
   {
-    word: 'bribe',
-    hint: 'an improper stimulus',
+    word: 'frage',
+    hint: 'Erkundigung',
     explanation:
-      'A bribe involves intentionally offering, promising or giving any undue pecuniary or other advantage to an official or decision maker, with the intention that the official or decision maker acts or refrains from acting in relation to the performance of their duties.',
+      'Viele Fragen sind im Kontakt mit Wettbewerbern nicht zulässig, wie z.B. die nach Preisen, Marktanteilen etc.',
   },
   {
-    word: 'fines',
-    hint: 'A punishing pinch to the pocket',
+    word: 'kunde',
+    hint: 'Abnehmer',
     explanation:
-      'A person convicted of an offence under the Prevention of Corruption Act 1960 shall be liable to a fine not exceeding $100,000 or to imprisonment for a term not exceeding 5 years or to both, for each count of corruption.',
+      'Eine Aufteilung von Kunden durch Wettbewerber, z.B. nach regionalen Märkten o.ä. ist unzulässig.',
   },
   {
-    word: 'gifts',
-    hint: 'A benefit',
+    word: 'markt',
+    hint: 'Handelsplatz',
     explanation:
-      'Gifts are considered anything of value that if offered, provided, or promised, with an intention to exert undue influence on a business decision, would be considered a bribe under applicable anti corruption laws in many countries',
+      'Für die Beurteilung kartellrechtlicher Risiken ist die Definition des jeweiligen Marktes relevant.',
   },
   {
-    word: 'graft',
-    hint: 'A form of political corruption',
+    word: 'taten',
+    hint: 'Handlungen',
     explanation:
-      'Graft is a form of political corruption that involves the misdirection of public funds by a government official for the benefit of private interests.',
+      'Manche Verfehlungen können nicht nur aktiv durch Taten sondern auch durch Unterlassen begangen werden, wie z.B. das widerspruchlose Hinnehmen unzulässiger Handlungen in Verbandstreffen.',
   },
   {
-    word: 'fraud',
-    hint: 'A deceptive act',
+    word: 'zweck',
+    hint: 'Absicht',
     explanation:
-      'Misleading conduct done by someone, with the objective to get an illegal advantage',
+      'Etwas, das jemand mit einer Handlung beabsichtigt. Geschenke können z.B. zu dem Zweck angeboten oder versprochen werden, eine Geschäftsentscheidung in unzulässiger Weise zu beeinflussen, gilt dies nach den geltenden Anti-Korruptionsgesetzen in vielen Ländern als Bestechung.',
   },
   {
-    word: 'value',
-    hint: 'A monetary estimation',
+    word: 'preis',
+    hint: 'Ein Betrag, der für etwas erwartet, angeboten oder gegeben wird.',
     explanation:
-      'The term “anything of value” can be broadly construed to include not only cash or a cash equivalents, but also things like, discounts; gifts; use of materials, facilities or equipment; training and education; entertainment; meals and drinks; transportation; lodging, insurance benefits; promises of future employment; and forgiveness (or cancellation) of debt.',
-  },
-  {
-    word: 'crime',
-    hint: 'behaviour that is punishable as a public offence',
-    explanation:
-      "Corruption is a form of criminal offence which is undertaken by a person or an organisation which is entrusted in a position of authority, in order to acquire illicit benefits or abuse power for one's personal gain.",
-  },
-  {
-    word: 'trips',
-    hint: 'Excursion for pleasure',
-    explanation:
-      'Payments for travel expenses which are merely bribes in disguise are a clear violation of applicable anti corruption laws',
-  },
-  {
-    word: 'abuse',
-    hint: 'Use something to bad effect',
-    explanation:
-      'Abuse of dominance occurs when a dominant business (or group of businesses) engages in activity that stops or substantially reduces competition in a market.',
-  },
-  {
-    word: 'tying',
-    hint: 'Bound together',
-    explanation:
-      'An agreement by a party to sell one product but only on the condition that the buyer also purchases a different (or tied) product, or at least agrees that he will not purchase that product from any other supplier.',
-  },
-  {
-    word: 'carve',
-    hint: 'Setting aside from a larger whole',
-    explanation:
-      'Carving up a market – cartel members may collectively agree to break up a market into regions or territories and not compete in each other’s territory.',
-  },
-  {
-    word: 'quote',
-    hint: 'Last price for trading a product or service',
-    explanation:
-      'Quotations are considered commercially sensitive information between competitors',
-  },
-  {
-    word: 'price',
-    hint: 'An amount expected, offered or given for something',
-    explanation:
-      'Prices are sensitive and confidential information relating to important competition parameters',
-  },
-  {
-    word: 'joint',
-    hint: 'a  collaborative approach',
-    explanation:
-      'Any cooperation with competitors, such as joint sales and marketing, production, purchasing, or research and development is only permitted, if precise and clearly defined legal requirements are met.',
-  },
-  {
-    word: 'share',
-    hint: 'Giving out to another',
-    explanation:
-      'Market sharing occurs when competitors agree to divide or allocate customers, suppliers or territories among themselves rather than allowing competitive market forces to work.',
-  },
-  {
-    word: 'money',
-    hint: 'Legal tender',
-    explanation:
-      'Money laundering is the process of concealing the origin of money, obtained from illicit activities such as trafficking, corruption, embezzlement or gambling, by converting it into a legitimate source.',
-  },
-  {
-    word: 'evade',
-    hint: 'Try to avoid',
-    explanation: 'Tax evasion is a designated offense for money laundering',
-  },
-  {
-    word: 'layer',
-    hint: 'Vaneer of normalcy',
-    explanation:
-      'The transaction stage during which the money is passed through several financial instruments and vehicles to give the appearance that the money is from a legitimate source',
-  },
-  {
-    word: 'haven',
-    hint: 'A refuge or sanctuary',
-    explanation:
-      "Tax havens create opportunities for illegal activities that go well beyond tax evasion. They are popular stops in the elaborate process of money laundering, which involves transferring illegally obtained cash through a series of shell companies until it can't be traced.",
-  },
-  {
-    word: 'drugs',
-    hint: 'A substance affecting the body',
-    explanation:
-      "The first stage of money laundering is known as 'placement', whereby 'dirty' money is placed into the legal, financial systems. For e.g. Drug dealers hide their profits by flushing them through the vast global financial market, and use the laundered cash to underwrite their trafficking",
+      'Preise sind sensible und vertrauliche Informationen, die wichtige Wettbewerbsparameter betreffen.',
   },
   {
     word: 'mafia',
-    hint: 'Those following omertà',
+    hint: 'Verbrecherorganisationen aus dem Bereich der organisierten Kriminalität',
     explanation:
-      'Al Capone is known as the person who gave the term money laundering. He laundered money by buying laundries as cash.',
+      'Al Capone gilt als derjenige, der den Begriff Geldwäsche geprägt hat, da er das durch illegale Betätigungen erworbene Geld in Waschsalons investierte und damit die wahre Herkunft verschleierte.',
   },
   {
-    word: 'asset',
-    hint: 'Thing of value',
+    word: 'dsgvo',
+    hint: 'Datenschutzgrundverordnung',
     explanation:
-      'The launderer might choose to invest proceeds from illicit activities into assets such as real estate, luxury assets, or business ventures.',
+      'Verordnung der EU, mit der Regeln zur Verarbeitung personenbezogener Daten EU-weit vereinheitlicht wurden.',
+  },
+  {
+    word: 'audit',
+    hint: 'Prüfung',
+    explanation:
+      'Systematische Überprüfung und Bewertung von Prozessen zum Nachweis der Erfüllung geforderter Standards. Compliance Audits überprüfen z.B. die Einhaltung der Regeln des tk Compliance Programms.',
+  },
+  {
+    word: 'bitte',
+    hint: 'Wunsch',
+    explanation:
+      'Die Bitte um einen "kleinen Gefallen" zum Beispiel von früheren Kollegen, die jetzt bei Wetbewerbern arbeiten, kann schnell gefährlich werden. Beispielsweise kann die Bitte um eine geschäftliche Information beim abendlichen Treffen schnell kartellrechtlich relevant werden. Kartellrecht gilt auch im privaten Bereich!',
+  },
+  {
+    word: 'druck',
+    hint: 'Belastung',
+    explanation:
+      'Psychische Belastung, bedingt durch eigene oder fremde Erwartungshaltung, z.B. wenn von Kunden oder Lieferanten Druck ausgeübt wird, inhaltlich oder zeitlich kritische Entscheidungen zu treffen.',
+  },
+  {
+    word: 'index',
+    hint: 'Kennzahl',
+    explanation:
+      'Eine Zusammenfassung verschiedener Werte zu einer statistisch relevanten Kennziffer. Die Verwendung von Indices für die Preisgestaltung birgt z.B. das Risiko, dass sie als Preisabsprache (Kartell) angesehen werden könnten.',
+  },
+  {
+    word: 'zeuge',
+    hint: 'Zuschauer',
+    explanation:
+      'Person, die bei einem Ereignis zugegen ist oder war und darüber aus eigener Anschauung oder Erfahrung etwas sagen kann. Sollten SIe Zeuge von Compliance- Verstößen im eigenen Unternehmen oder bei Kunden oder Lieferanten werden, vertrauen Sie sich Ihrem Compliance Ansprechpartner an.',
   },
 ]

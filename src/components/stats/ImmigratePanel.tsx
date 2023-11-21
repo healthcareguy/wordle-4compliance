@@ -1,12 +1,12 @@
-import { SaveIcon } from '@heroicons/react/outline'
-import { useState } from 'react'
+import { SaveIcon } from '@heroicons/react/outline';
+import { useState } from 'react';
 
-import { decrypt } from '../../lib/encryption'
-import {
-  saveGameStateToLocalStorage,
-  saveStatsToLocalStorage,
-} from '../../lib/localStorage'
-import { MigrationStats } from '../modals/MigrateStatsModal'
+
+
+import { decrypt } from '../../lib/encryption';
+import { saveGameStateToLocalStorage, saveStatsToLocalStorage } from '../../lib/localStorage';
+import { MigrationStats } from '../modals/MigrateStatsModal';
+
 
 export const ImmigratePanel = () => {
   const [isSaveButtonEnabled, setIsSaveButtonEnabled] = useState(false)
@@ -55,7 +55,7 @@ export const ImmigratePanel = () => {
     if (
       textarea &&
       window.confirm(
-        'Are you sure you want to override the statistics on this device? This action is not reversable.'
+        'Sind Sie sicher, dass Sie die Statistiken auf diesem Gerät überschreiben möchten? Diese Aktion ist nicht rückgängig zu machen.'
       )
     ) {
       var migrationStats = JSON.parse(
@@ -71,7 +71,7 @@ export const ImmigratePanel = () => {
         saveStatsToLocalStorage(migrationStats.statistics)
       }
 
-      alert('The site will now reload.')
+      alert('Die Seite wird nun neu geladen.')
 
       window.location.reload()
     }
@@ -83,7 +83,7 @@ export const ImmigratePanel = () => {
         htmlFor="message"
         className="mb-2 block text-left text-sm font-medium text-gray-900 dark:text-gray-400"
       >
-        Paste your migration code:
+        Fügen Sie Ihren Migrationscode ein:
       </label>
       <textarea
         onChange={(e) => handleImmigrationCodeChange(e)}
@@ -101,7 +101,7 @@ export const ImmigratePanel = () => {
         {isSaveButtonEnabled && (
           <SaveIcon className="mr-2 h-6 w-6 cursor-pointer dark:stroke-white" />
         )}
-        Save
+        Speichern
       </button>
     </div>
   )
