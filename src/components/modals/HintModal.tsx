@@ -1,11 +1,8 @@
-import classnames from 'classnames';
-import { useState } from 'react';
+import classnames from 'classnames'
+import { useState } from 'react'
 
-
-
-import { getHint, hintsExplanations } from './../../lib/hintsExplanations';
-import { BaseModal } from './BaseModal';
-
+import { getHint, hintsExplanations } from './../../lib/hintsExplanations'
+import { BaseModal } from './BaseModal'
 
 type Props = {
   isOpen: boolean
@@ -29,10 +26,10 @@ export const HintModal = ({ isOpen, handleClose, width = 400 }: Props) => {
     'xxshort:h-8 xxshort:w-8 xxshort:text-lg xshort:w-10 xshort:h-10 flex short:h-12 h-14 items-center justify-center rounded mx-0.5 text-lg font-bold cursor-pointer select-none dark:text-white bg-cyan-500 hover:bg-cyan-600 active:bg-cyan-700 text-white'
   )
   return (
-    <BaseModal title="Clave" isOpen={isOpen} handleClose={handleClose}>
+    <BaseModal title="Consejo" isOpen={isOpen} handleClose={handleClose}>
       {!hintsExplanations.hintrevealed && (
         <p className="text-sm text-gray-500 dark:text-gray-300">
-          Haga clic en el botón de abajo para obtener una pista.
+          Haz clic en el botón de abajo para obtener una pista
         </p>
       )}
       <div className="m-3 flex justify-center">

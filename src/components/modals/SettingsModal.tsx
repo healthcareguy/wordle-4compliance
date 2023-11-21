@@ -36,12 +36,12 @@ export const SettingsModal = ({
           description={HARD_MODE_DESCRIPTION}
         />
         <SettingsToggle
-          settingName="Modo oscuro"
+          settingName="Modo Nocturno"
           flag={isDarkMode}
           handleFlag={handleDarkMode}
         />
         <SettingsToggle
-          settingName="Modo de alto contraste"
+          settingName="Modo de Alto Contraste"
           flag={isHighContrastMode}
           handleFlag={handleHighContrastMode}
           description={HIGH_CONTRAST_MODE_DESCRIPTION}

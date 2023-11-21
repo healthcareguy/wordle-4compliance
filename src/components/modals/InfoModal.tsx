@@ -37,7 +37,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell value="Y" isCompleted={true} />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        La letra W está en la palabra y en el lugar correcto.
+        La letra W está en la palabra y en la posición correcta.
       </p>
 
       <div className="mb-1 mt-4 flex justify-center">
@@ -53,7 +53,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell value="T" isCompleted={true} />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        La letra L está en la palabra pero en el lugar equivocado.
+        La letra L está en la palabra pero en la posición incorrecta
       </p>
 
       <div className="mb-1 mt-4 flex justify-center">
@@ -64,17 +64,17 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell value="E" isCompleted={true} />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        La letra U no está en la palabra en ningún lugar.
+        La letra U no está en la palabra en ninguna posición
       </p>
 
       <p className="mt-6 text-sm italic text-gray-500 dark:text-gray-300">
-        Esta es una versión de código abierto del juego de adivinar palabras que
-        todos conocemos y amar -{' '}
+        Esta es una versión de código abierto del juego de adivinanzas de
+        palabras que todos conocemos y amamos -{' '}
         <a
           href="https://github.com/cwackerfuss/react-wordle"
           className="font-bold underline"
         >
-          mira el código aquí
+          consulta el código aquí
         </a>{' '}
       </p>
     </BaseModal>

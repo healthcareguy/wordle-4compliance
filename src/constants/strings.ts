@@ -7,8 +7,9 @@ export const WORD_NOT_FOUND_MESSAGE = 'Palabra no encontrada'
 export const HARD_MODE_ALERT_MESSAGE =
   '¡El modo difícil solo se puede habilitar al principio!'
 export const HARD_MODE_DESCRIPTION =
-  'Cualquier pista revelada debe usarse en conjeturas posteriores.'
-export const HIGH_CONTRAST_MODE_DESCRIPTION = 'Para mejorar la visión del color'
+  'Cualquier pista revelada debe ser utilizada en los siguientes intentos.'
+export const HIGH_CONTRAST_MODE_DESCRIPTION =
+  'Para una visión mejorada de colores'
 export const CORRECT_WORD_MESSAGE = (solution: string) =>
   `La palabra era ${solution}`
 export const WRONG_SPOT_MESSAGE = (guess: string, position: number) =>
@@ -25,11 +26,11 @@ export const SHARE_FAILURE_TEXT =
   'No se pueden compartir los resultados. Esta función está disponible solo en contextos seguros (HTTPS), en algunos o todos los navegadores compatibles.'
 export const MIGRATE_BUTTON_TEXT = 'Transferir'
 export const MIGRATE_DESCRIPTION_TEXT =
-  'Haga clic aquí para transferir sus estadísticas a un nuevo dispositivo.'
-export const TOTAL_TRIES_TEXT = 'intentos totales'
+  'Haz clic aquí para transferir tus estadísticas a un nuevo dispositivo.'
+export const TOTAL_TRIES_TEXT = 'Total de intentos'
 export const SUCCESS_RATE_TEXT = 'Tasa de éxito'
-export const CURRENT_STREAK_TEXT = 'Racha actual'
-export const BEST_STREAK_TEXT = 'Mejor racha'
+export const CURRENT_STREAK_TEXT = 'Serie actual'
+export const BEST_STREAK_TEXT = 'Mejor serie'
 export const DISCOURAGE_INAPP_BROWSER_TEXT =
   'Está utilizando un navegador integrado y puede tener problemas para compartir o guardar sus resultados. Le recomendamos que utilice el navegador predeterminado de su dispositivo.'
 
