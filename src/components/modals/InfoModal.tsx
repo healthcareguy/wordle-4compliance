@@ -13,9 +13,10 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
     <BaseModal title="Spielanleitung" isOpen={isOpen} handleClose={handleClose}>
       <div>
         <p className="text-sm text-gray-500 dark:text-gray-300">
-          Errate das Wort in 6 Versuchen. Nach jeder Vermutung die Farbe der
-          Kacheln ändert sich, um anzuzeigen, wie nah Ihre Vermutung am Wort
-          war.
+          Es geht darum, ein Wort mit 5 Buchstaben zu erraten, das einen Compliance Bezug aufweist. 
+          Sie haben 6 Versuche, um ein Wort zu erraten. Nach jedem Versuch
+          ändert sich die Farbe der Kacheln, um anzuzeigen, wie nah Sie dem
+          gesuchten Wort sind.
         </p>
       </div>
       <div className="mt-3 inline-block align-middle text-sm text-gray-500 dark:text-gray-300">
@@ -37,7 +38,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell value="Y" isCompleted={true} />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        Der Buchstabe W steht im Wort und an der richtigen Stelle.
+        Der Buchstabe W kommt im Wort vor und steht an der richtigen Stelle.
       </p>
 
       <div className="mb-1 mt-4 flex justify-center">
@@ -53,7 +54,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell value="T" isCompleted={true} />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        Der Buchstabe L ist im Wort, aber an der falschen Stelle.
+        Der Buchstabe L kommt im Wort vor, steht aber an der falschen Stelle.
       </p>
 
       <div className="mb-1 mt-4 flex justify-center">
@@ -64,12 +65,11 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell value="E" isCompleted={true} />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        Der Buchstabe U kommt an keiner Stelle im Wort vor.
+        Der Buchstabe U kommt im gesuchten Wort nicht vor.
       </p>
 
       <p className="mt-6 text-sm italic text-gray-500 dark:text-gray-300">
-        Dies ist eine Open-Source-Version des Wortratespiels, das wir alle
-        kennen Liebe -{' '}
+        Dies ist eine Open-Source-Version des Wortratespiels „Wordle“ -{' '}
         <a
           href="https://github.com/cwackerfuss/react-wordle"
           className="font-bold underline"

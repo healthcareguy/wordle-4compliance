@@ -18,12 +18,12 @@ export const NOT_CONTAINED_MESSAGE = (letter: string) =>
 export const ENTER_TEXT = 'Enter'
 export const DELETE_TEXT = 'Löschen'
 export const STATISTICS_TITLE = 'Statistiken'
-export const GUESS_DISTRIBUTION_TEXT = 'Schätzen Sie die Verteilung'
-export const NEW_WORD_TEXT = 'Neues Wort drin'
-export const SHARE_TEXT = 'Aktie'
+export const GUESS_DISTRIBUTION_TEXT = 'Anzahl der Versuche'
+export const NEW_WORD_TEXT = 'Neues Wort in...'
+export const SHARE_TEXT = 'Zwischen-ablage'
 export const SHARE_FAILURE_TEXT =
   'Die Ergebnisse können nicht geteilt werden. Diese Funktion ist nur in sicheren Kontexten (HTTPS) und in einigen oder allen unterstützenden Browsern verfügbar.'
-export const MIGRATE_BUTTON_TEXT = 'Überweisen'
+export const MIGRATE_BUTTON_TEXT = 'Übertragen'
 export const MIGRATE_DESCRIPTION_TEXT =
   'Klicken Sie hier, um Ihre Statistiken auf ein neues Gerät zu übertragen.'
 export const TOTAL_TRIES_TEXT = 'Gesamtzahl der Versuche'
